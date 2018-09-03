@@ -3,10 +3,10 @@ let a = parseInt(prompt('Enter a'));
 let b = parseInt(prompt('Enter b'));
 let c = parseInt(prompt('Enter c'));
 
-var x1, x2;
+let x1, x2;
 
 function solution(a, b, c){
-var d=Math.pow(2, b)-4*a*c
+let d=Math.pow(2, b)-4*a*c
 if (d<0){
     x1=x2='the roots of the quadratic equation are complex';
 }
